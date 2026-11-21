@@ -1,9 +1,15 @@
 Tujuan Pembelajaran: Mahasiswa mampu menjelaskan pengertian class dan object, mengenali constructor __init__() dan parameter self, menjelaskan attribute sebagai data milik object, membuat dan memanggil method di dalam class, membuat beberapa object dari satu class dengan data berbeda, serta memahami alur program melalui simulasi perkenalan mahasiswa.Materi Pembelajaran:
 
 1. class dan Object: Class adalah cetakan atau rancangan untuk membuat object, sedangkan object adalah wujud nyata atau instance yang dibuat dari class; pada studi kasus ini Mahasiswa adalah class, sedangkan tazkiyah dan ratu adalah object.
+   
 2. Constructor __init__(): Method khusus yang berjalan otomatis saat object dibuat untuk menerima data nama, jurusan, dan asal lalu memasangnya ke object baru.
+   
 3. Attribute: Data milik masing-masing object (self.nama untuk nama mahasiswa, self.jurusan untuk program studi, dan self.asal untuk daerah asal) yang namanya sama pada tiap object namun nilainya bisa berbeda.
+   
 4. Method: Fungsi di dalam class yang menentukan perilaku object, meliputi perkenalan() untuk menampilkan identitas lengkap, bicara(kalimat) untuk menampilkan kalimat yang diucapkan, dan hello(nama) untuk menyapa orang lain sesuai nama yang diberikan.
+  
 5. Parameter self: Acuan ke object yang sedang menjalankan method (misalnya ratu merujuk pada object ratu beserta datanya), sedangkan parameter tambahan seperti kalimat atau nama mengirim informasi khusus ke method.
+   
 6. Membuat Object: Satu class Mahasiswa dapat membuat banyak object dengan data berbeda, seperti tazkiyah dari Balaraja, Kabupaten Tangerang, dan ratu dari Pabuaran, Kabupaten Serang, jurusan Sistem Informasi.
+   
 7. Alur Simulasi: Menggambarkan hari pertama kuliah di kelas Sistem Informasi Universitas Bina Bangsa ketika Ratu dan Tazkiyah saling menyapa, memperkenalkan diri, menanyakan asal dan perjalanan ke kampus, lalu menutup percakapan saat dosen masuk dengan urutan dialog sesuai pemanggilan method.Contoh Pemanggilan Method: Jika object mahasiswa bernama Dina dari Cilegon jurusan Sistem Informasi menyampaikan kalimat senang bertemu dan menyapa Ayu, tampilannya adalah "Dina: Senang bertemu denganmu." lalu "Dina: Halo Ayu, aku Dina.".Ringkasan: Class Mahasiswa menjadi cetakan object, constructor __init__() mengisi attribute nama, jurusan, dan asal, method perkenalan(), bicara(), dan hello() menentukan perilaku object, parameter self menghubungkan method dengan object aktif, dan satu class dapat menghasilkan banyak object dengan dialog berurutan sesuai pemanggilan method.
